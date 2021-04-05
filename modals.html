@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="dropletcss.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <title>open</title>
+  </head>
+  <body>
+    <div>
+      <!-- class="fixed-nav" -->
+      <div class="fixed-nav">
+        <div>
+          <button class="nav-menu-btn" id="btnNav" type="button">
+            <!-- <i class="material-icons">menu</i> -->
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <div class="nav-header-name">droplet-css</div>
+        <div class="social-links">
+          <a
+            class="social-links-to-go"
+            href="https://github.com/yogeshpendse/droplet-css"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </div>
+      <nav class="nav">
+        <div class="nav-links">
+          <a class="nav-link" href="alert.html"> alerts </a>
+          <a class="nav-link" href="avatar.html"> avatars </a>
+          <a class="nav-link" href="badges.html"> badges </a>
+          <a class="nav-link" href="button.html"> buttons </a>
+          <a class="nav-link" href="cards.html"> cards </a>
+          <a class="nav-link" href="grids.html"> grids </a>
+          <a class="nav-link" href="images.html"> images </a>
+          <a class="nav-link" href="input.html"> input </a>
+          <a class="nav-link" href="lists.html"> lists </a>
+          <a class="nav-link nav-link-active" href="modals.html"> modals </a>
+          <a class="nav-link" href="navbar.html"> navbar </a>
+          <a class="nav-link" href="toasts.html"> toast </a>
+
+          <br />
+        </div>
+        <div class="nav-overlay"></div>
+      </nav>
+    </div>
+
+    <div class="document-container">
+      <h1 class="heading">modals in css</h1>
+
+      <!-- product -->
+      <div class="document-content">
+        <div class="document-component-container">
+          <button class="modal-button btn-transparent-pill" href="#myModal1">
+            Open Modal
+          </button>
+
+          <!-- The Modal -->
+          <div id="myModal1" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="modal-close">×</span>
+                <h1>Modal Header</h1>
+              </div>
+              <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+              </div>
+              <div class="modal-footer">
+                <p>modal footer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="document-code-container">
+          <iframe
+            src="https://carbon.now.sh/embed?bg=rgba%2874%2C144%2C226%2C1%29&t=vscode&wt=none&l=htmlmixed&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira+Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code=%253Cdiv%2520id%253D%2522myModal1%2522%2520class%253D%2522modal%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522modal-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522modal-close%2522%253E%25C3%2597%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EModal%2520Header%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-body%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESome%2520text%2520in%2520the%2520Modal%2520Body%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253ESome%2520other%2520text...%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522modal-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253Emodal%2520footer%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+            style="
+              width: 100%;
+              height: 513px;
+              border: 0;
+              transform: scale(1);
+              overflow: hidden;
+            "
+            sandbox="allow-scripts allow-same-origin"
+          >
+          </iframe>
+        </div>
+      </div>
+
+      <!-- backup -->
+      <!-- product -->
+      <div class="document-content">
+        <div class="document-component-container"></div>
+
+        <div class="document-code-container"></div>
+      </div>
+      <!-- backup end -->
+    </div>
+    <script type="text/javascript">
+      // Get the button that opens the modal
+      var btn = document.querySelectorAll("button.modal-button");
+
+      // All page modals
+      var modals = document.querySelectorAll(".modal");
+
+      // Get the <span> element that closes the modal
+      var spans = document.getElementsByClassName("modal-close");
+
+      // When the user clicks the button, open the modal
+      for (var i = 0; i < btn.length; i++) {
+        btn[i].onclick = function (e) {
+          e.preventDefault();
+          modal = document.querySelector(e.target.getAttribute("href"));
+          modal.style.display = "block";
+        };
+      }
+
+      // When the user clicks on <span> (x), close the modal
+      for (var i = 0; i < spans.length; i++) {
+        spans[i].onclick = function () {
+          for (var index in modals) {
+            if (typeof modals[index].style !== "undefined")
+              modals[index].style.display = "none";
+          }
+        };
+      }
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target.classList.contains("modal")) {
+          for (var index in modals) {
+            if (typeof modals[index].style !== "undefined")
+              modals[index].style.display = "none";
+          }
+        }
+      };
+    </script>
+    <script src="main.js"></script>
+  </body>
+</html>
